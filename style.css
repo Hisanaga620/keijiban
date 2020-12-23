@@ -1,0 +1,84 @@
+/*  ヘッダー部分  */
+.logo {
+    display: block;
+    width: 200px;
+}
+
+.menu {
+    background-color: black;
+    height: 30px;
+}
+
+header li {
+    display: inline-block;
+    color: white;
+    list-style: none;
+    line-height: 30px;
+    padding: 0px 5px;
+}
+
+
+/*  本文部分のレイアウト管理    */
+.left{
+    float: left;
+    width: 70%;
+}
+
+.right{
+    float: right;
+    width: 25%;
+}
+
+
+/*  入力フォーム部分    */
+h1 {
+    border-left: 5px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 10px;
+}
+
+.contents {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border: 3px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2.form {
+    border-left: 4px solid red;
+    padding-left: 5px;
+}
+
+.button {
+    padding: 0px 10px;
+    background-color: #6666cc;
+    color: white;
+    border: 1px solid lightgray;
+    border-bottom: 3px solid #4444aa;
+}
+
+/*  投稿内容表示部分    */
+p.handlename {
+    font-size: 11px;
+}
+
+/*  タイトル部分(掲示板・右側リンク共通) */
+h2.title{
+    font-size: 20px;
+    border-bottom: 2px dotted black;
+}
+
+
+/*  右側リンク部分 */
+p.link {
+    padding-left: 15px;
+}
+
+/*  フッター部分  */
+.footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
